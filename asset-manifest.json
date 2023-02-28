@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/exem-mini-dashboard/static/css/main.7df20fa5.css",
+    "main.js": "/exem-mini-dashboard/static/js/main.efa3bd3f.js",
+    "index.html": "/exem-mini-dashboard/index.html",
+    "main.7df20fa5.css.map": "/exem-mini-dashboard/static/css/main.7df20fa5.css.map",
+    "main.efa3bd3f.js.map": "/exem-mini-dashboard/static/js/main.efa3bd3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7df20fa5.css",
+    "static/js/main.efa3bd3f.js"
+  ]
+}
