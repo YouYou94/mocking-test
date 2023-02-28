@@ -35,7 +35,10 @@ export const pieResolver = async (req, res, ctx) => {
   const from = checkNull(req.url.searchParams.get('from'));
   const to = checkNull(req.url.searchParams.get('to'));
   if (from === null || to === null || from >= to) {
-    return res(ctx.status(422), ctx.json({ errorMessage: 'Bad request body.' }));
+    return res(
+      ctx.status(422),
+      ctx.json({ errorMessage: 'Bad request body.' }),
+    );
   }
   const interval = 10 * 1000;
   const standardToFrom = from - standardStartTime;
